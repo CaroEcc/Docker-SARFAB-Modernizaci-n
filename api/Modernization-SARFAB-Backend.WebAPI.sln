@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modernization-SARFAB-Backend.WebAPI", "Modernization-SARFAB-Backend.WebAPI\Modernization-SARFAB-Backend.WebAPI.csproj", "{264DB05E-2DDB-4FF4-BB96-D575CF681DBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modernization-SARFAB-Backend.Application", "Modernization-SARFAB-Backend.Application\Modernization-SARFAB-Backend.Application.csproj", "{16F6C18C-8FBF-48EC-B8A0-BC573DFD4B42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modernization-SARFAB-Backend.Domain", "Modernization-SARFAB-Backend.Domain\Modernization-SARFAB-Backend.Domain.csproj", "{C60265DD-93F3-47EB-BA9F-CA46719779A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modernization-SARFAB-Backend.Infrastructure", "Modernization-SARFAB-Backend.Infrastructure\Modernization-SARFAB-Backend.Infrastructure.csproj", "{01D67ACD-9D23-4FF0-821E-1689CDDCE94B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{264DB05E-2DDB-4FF4-BB96-D575CF681DBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{264DB05E-2DDB-4FF4-BB96-D575CF681DBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{264DB05E-2DDB-4FF4-BB96-D575CF681DBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{264DB05E-2DDB-4FF4-BB96-D575CF681DBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16F6C18C-8FBF-48EC-B8A0-BC573DFD4B42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16F6C18C-8FBF-48EC-B8A0-BC573DFD4B42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16F6C18C-8FBF-48EC-B8A0-BC573DFD4B42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16F6C18C-8FBF-48EC-B8A0-BC573DFD4B42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C60265DD-93F3-47EB-BA9F-CA46719779A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C60265DD-93F3-47EB-BA9F-CA46719779A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C60265DD-93F3-47EB-BA9F-CA46719779A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C60265DD-93F3-47EB-BA9F-CA46719779A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01D67ACD-9D23-4FF0-821E-1689CDDCE94B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01D67ACD-9D23-4FF0-821E-1689CDDCE94B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01D67ACD-9D23-4FF0-821E-1689CDDCE94B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01D67ACD-9D23-4FF0-821E-1689CDDCE94B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

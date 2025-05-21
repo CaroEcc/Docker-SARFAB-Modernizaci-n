@@ -1,0 +1,16 @@
+C:\Users\PC\Desktop\Apps\Modernization-SARFAB-Backend\Modernization-SARFAB-Backend.Application\bin\Debug\net8.0\Modernization-SARFAB-Backend.Application.deps.json
+C:\Users\PC\Desktop\Apps\Modernization-SARFAB-Backend\Modernization-SARFAB-Backend.Application\bin\Debug\net8.0\Modernization-SARFAB-Backend.Application.dll
+C:\Users\PC\Desktop\Apps\Modernization-SARFAB-Backend\Modernization-SARFAB-Backend.Application\bin\Debug\net8.0\Modernization-SARFAB-Backend.Application.pdb
+C:\Users\PC\Desktop\Apps\Modernization-SARFAB-Backend\Modernization-SARFAB-Backend.Application\bin\Debug\net8.0\Modernization-SARFAB-Backend.Domain.dll
+C:\Users\PC\Desktop\Apps\Modernization-SARFAB-Backend\Modernization-SARFAB-Backend.Application\bin\Debug\net8.0\Modernization-SARFAB-Backend.Domain.pdb
+C:\Users\PC\Desktop\Apps\Modernization-SARFAB-Backend\Modernization-SARFAB-Backend.Application\obj\Debug\net8.0\Modernization-SARFAB-Backend.Application.csproj.AssemblyReference.cache
+C:\Users\PC\Desktop\Apps\Modernization-SARFAB-Backend\Modernization-SARFAB-Backend.Application\obj\Debug\net8.0\Modernization-SARFAB-Backend.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Desktop\Apps\Modernization-SARFAB-Backend\Modernization-SARFAB-Backend.Application\obj\Debug\net8.0\Modernization-SARFAB-Backend.Application.AssemblyInfoInputs.cache
+C:\Users\PC\Desktop\Apps\Modernization-SARFAB-Backend\Modernization-SARFAB-Backend.Application\obj\Debug\net8.0\Modernization-SARFAB-Backend.Application.AssemblyInfo.cs
+C:\Users\PC\Desktop\Apps\Modernization-SARFAB-Backend\Modernization-SARFAB-Backend.Application\obj\Debug\net8.0\Modernization-SARFAB-Backend.Application.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\Apps\Modernization-SARFAB-Backend\Modernization-SARFAB-Backend.Application\obj\Debug\net8.0\Modernization-SARFAB-Backend.Application.sourcelink.json
+C:\Users\PC\Desktop\Apps\Modernization-SARFAB-Backend\Modernization-SARFAB-Backend.Application\obj\Debug\net8.0\Moderniz.7CF47C1E.Up2Date
+C:\Users\PC\Desktop\Apps\Modernization-SARFAB-Backend\Modernization-SARFAB-Backend.Application\obj\Debug\net8.0\Modernization-SARFAB-Backend.Application.dll
+C:\Users\PC\Desktop\Apps\Modernization-SARFAB-Backend\Modernization-SARFAB-Backend.Application\obj\Debug\net8.0\refint\Modernization-SARFAB-Backend.Application.dll
+C:\Users\PC\Desktop\Apps\Modernization-SARFAB-Backend\Modernization-SARFAB-Backend.Application\obj\Debug\net8.0\Modernization-SARFAB-Backend.Application.pdb
+C:\Users\PC\Desktop\Apps\Modernization-SARFAB-Backend\Modernization-SARFAB-Backend.Application\obj\Debug\net8.0\ref\Modernization-SARFAB-Backend.Application.dll

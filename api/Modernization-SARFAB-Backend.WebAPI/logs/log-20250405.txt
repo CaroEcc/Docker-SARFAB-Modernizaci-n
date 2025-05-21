@@ -1,0 +1,47 @@
+2025-04-05 08:55:27 [Information] Notification background service started.
+2025-04-05 08:55:59 [Information] Notification verification completed successfully.
+2025-04-05 08:56:21 [Warning] Failed to determine the https port for redirect.
+2025-04-05 09:14:23 [Information] Notification background service started.
+2025-04-05 09:14:41 [Information] Notification verification completed successfully.
+2025-04-05 09:14:53 [Warning] Failed to determine the https port for redirect.
+2025-04-05 09:20:24 [Information] Notification background service started.
+2025-04-05 09:20:41 [Information] Notification verification completed successfully.
+2025-04-05 09:22:03 [Warning] Failed to determine the https port for redirect.
+2025-04-05 09:48:30 [Information] Usuario <admin> registró militar con Id: 42 y rango asignado: 14.
+2025-04-05 10:37:54 [Information] Usuario <admin> registró militar con Id: 43 y rango asignado: 1.
+2025-04-05 11:01:31 [Information] Usuario <admin> registró militar con Id: 44 y rango asignado: 5.
+2025-04-05 13:05:26 [Information] Se actualizó el estado de la persona en la operación
+2025-04-05 13:08:58 [Information] Se actualizó el estado de la persona en la operación
+2025-04-05 13:11:48 [Information] Usuario <admin> actualizó la operación con Id: 11.
+2025-04-05 13:47:51 [Information] Usuario <admin> creó la operación con Id: 12.
+2025-04-05 13:54:27 [Information] Usuario <admin> creó la operación con Id: 13.
+2025-04-05 14:38:19 [Information] Usuario <admin> actualizó la operación con Id: 13.
+2025-04-05 14:38:46 [Information] Usuario <admin> actualizó la operación con Id: 13.
+2025-04-05 14:44:14 [Information] Usuario <admin> creó la operación con Id: 14.
+2025-04-05 14:45:29 [Information] Usuario <admin> creó la operación con Id: 15.
+2025-04-05 14:56:32 [Information] Usuario <admin> actualizó la operación con Id: 15.
+2025-04-05 14:56:59 [Information] Usuario <admin> actualizó la operación con Id: 14.
+2025-04-05 14:59:04 [Information] Usuario <admin> actualizó la operación con Id: 14.
+2025-04-05 15:02:45 [Information] Usuario <admin> actualizó la operación con Id: 15.
+2025-04-05 15:47:17 [Information] El usuario <admin> creo un elemento con Id: 11.
+2025-04-05 15:48:46 [Information] El usuario <admin> actualizo un elemento con Id 5.
+2025-04-05 15:56:40 [Information] El usuario <admin> creo un elemento con Id: 12.
+2025-04-05 16:45:44 [Information] El usuario <admin> actualizo un elemento con Id 3.
+2025-04-05 17:54:20 [Information] El usuario <admin> actualizo un elemento con Id 3.
+2025-04-05 18:02:30 [Information] El usuario <admin> actualizo un elemento con Id 3.
+2025-04-05 18:04:13 [Information] El usuario <admin> actualizo un elemento con Id 3.
+2025-04-05 18:08:03 [Information] El usuario <admin> actualizo un elemento con Id 3.
+2025-04-05 18:08:21 [Information] El usuario <admin> actualizo un elemento con Id 3.
+2025-04-05 18:08:49 [Information] El usuario <admin> actualizo un elemento con Id 3.
+2025-04-05 18:10:20 [Information] El usuario <admin> actualizo un elemento con Id 3.
+2025-04-05 18:10:43 [Information] El usuario <admin> actualizo un elemento con Id 3.
+2025-04-05 18:11:59 [Information] El usuario <admin> actualizo un elemento con Id 3.
+2025-04-05 18:14:07 [Information] El usuario <admin> actualizo un elemento con Id 3.
+2025-04-05 18:17:36 [Information] El usuario <admin> actualizo un elemento con Id 3.
+2025-04-05 18:20:04 [Information] El usuario <admin> actualizo un elemento con Id 3.
+2025-04-05 18:21:21 [Information] El usuario <admin> actualizo un elemento con Id 3.
+2025-04-05 18:30:47 [Information] El usuario <admin> actualizo un elemento con Id 3.
+2025-04-05 18:35:28 [Information] El usuario <admin> actualizo un elemento con Id 3.
+2025-04-05 18:38:17 [Information] El usuario <admin> actualizo un elemento con Id 3.
+2025-04-05 18:38:35 [Information] El usuario <admin> actualizo un elemento con Id 3.
+2025-04-05 18:44:54 [Information] El usuario <admin> actualizo un elemento con Id 3.

@@ -1,0 +1,53 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Modernization_SARFAB_Backend.Infrastructure</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Persistence\Configurations\Academic\**" />
+    <Compile Remove="Persistence\Models\Academic\**" />
+    <Compile Remove="Persistence\Repositories\Academic\**" />
+    <EmbeddedResource Remove="Persistence\Configurations\Academic\**" />
+    <EmbeddedResource Remove="Persistence\Models\Academic\**" />
+    <EmbeddedResource Remove="Persistence\Repositories\Academic\**" />
+    <None Remove="Persistence\Configurations\Academic\**" />
+    <None Remove="Persistence\Models\Academic\**" />
+    <None Remove="Persistence\Repositories\Academic\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="14.0.0" />
+    <PackageReference Include="MailKit" Version="4.10.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.2">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="8.0.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Serilog.AspNetCore" Version="9.0.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Modernization-SARFAB-Backend.Application\Modernization-SARFAB-Backend.Application.csproj" />
+    <ProjectReference Include="..\Modernization-SARFAB-Backend.Domain\Modernization-SARFAB-Backend.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Persistence\Repositories\Medical\" />
+    <Folder Include="Persistence\Migrations\" />
+    <Folder Include="Persistence\Repositories\Inventory\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Templates\EmailTemplates\PasswordEmailTemplate.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

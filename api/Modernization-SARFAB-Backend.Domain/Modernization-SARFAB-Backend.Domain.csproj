@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Modernization_SARFAB_Backend.Domain</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Entities\Academic\**" />
+    <EmbeddedResource Remove="Entities\Academic\**" />
+    <None Remove="Entities\Academic\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Entities\Medical\" />
+    <Folder Include="Entities\Inventory\" />
+  </ItemGroup>
+
+</Project>

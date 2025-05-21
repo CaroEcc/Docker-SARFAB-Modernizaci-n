@@ -1,0 +1,7 @@
+2025-04-07 18:45:00 [Information] Notification background service started.
+2025-04-07 18:45:23 [Information] Notification verification completed successfully.
+2025-04-07 19:07:18 [Information] Notification background service started.
+2025-04-07 19:07:41 [Information] Notification verification completed successfully.
+2025-04-07 20:44:02 [Information] Notification background service started.
+2025-04-07 20:44:29 [Warning] Failed to determine the https port for redirect.
+2025-04-07 20:44:36 [Information] Notification verification completed successfully.

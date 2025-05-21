@@ -1,0 +1,444 @@
+2025-04-04 09:35:53 [Information] Notification background service started.
+2025-04-04 09:36:15 [Information] Notification verification completed successfully.
+2025-04-04 09:36:37 [Warning] Failed to determine the https port for redirect.
+2025-04-04 10:01:38 [Error] Failed executing DbCommand ("200"ms) [Parameters=["@__status_Value_0='?' (DbType = Int32), @__p_2='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `r`.`recruitment_id`, `r`.`birth_date`, `r`.`ci`, `r`.`created_at`, `r`.`first_name`, `r`.`last_name`, `r`.`status`, `r`.`updated_at`, `r`.`user_id`, `r`.`wants_military_service`
+FROM `recruitment` AS `r`
+WHERE `r`.`status` = CAST(@__status_Value_0 AS signed)
+ORDER BY `r`.`recruitment_id`
+LIMIT @__p_2 OFFSET @__p_1"
+2025-04-04 10:01:38 [Error] An exception occurred while iterating over the results of a query for context type '"Modernization_SARFAB_Backend.Infrastructure.Persistence.Contexts.SARFABSystemDbContext"'."
+""MySqlConnector.MySqlException (0x80004005): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10' at line 5
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 894
+   at MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in /_/src/MySqlConnector/Core/ResultSet.cs:line 37
+   at MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 130
+   at MySqlConnector.MySqlDataReader.InitAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, IDictionary`2 cachedProcedures, IMySqlCommand command, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 483
+   at MySqlConnector.Core.CommandExecutor.ExecuteReaderAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/CommandExecutor.cs:line 56
+   at MySqlConnector.MySqlCommand.ExecuteReaderAsync(CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 357
+   at MySqlConnector.MySqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 350
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass30_0`2.<<ExecuteAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()"
+2025-04-04 10:04:01 [Information] El usuario <admin> registró exitosamente el reclutamiento con Id: 40.
+2025-04-04 10:07:07 [Information] El usuario <admin> registró exitosamente el reclutamiento con Id: 41.
+2025-04-04 10:25:24 [Information] El usuario <admin> actualizó el reclutamiento con Id: 22
+2025-04-04 10:27:11 [Information] El usuario <admin> actualizó el reclutamiento con Id: 22
+2025-04-04 10:30:59 [Information] El usuario <admin> actualizó el reclutamiento con Id: 22
+2025-04-04 10:32:04 [Information] El usuario <admin> actualizó el reclutamiento con Id: 22
+2025-04-04 10:33:38 [Information] El usuario <admin> actualizó el estado del reclutamiento con Id: 22 a estado: NotQualified
+2025-04-04 10:45:29 [Information] El usuario <admin> actualizó el estado del reclutamiento con Id: 27 a estado: Qualified
+2025-04-04 10:53:59 [Information] Usuario <admin> registró voluntario con Id: 42, grado asignado: 1.
+2025-04-04 10:59:58 [Information] El usuario <admin> actualizó el reclutamiento con Id: 24
+2025-04-04 11:00:49 [Information] El usuario <admin> actualizó el estado del reclutamiento con Id: 24 a estado: Qualified
+2025-04-04 11:04:23 [Information] Usuario <admin> registró voluntario con Id: 43, grado asignado: 1.
+2025-04-04 11:06:32 [Information] El usuario <admin> actualizó el reclutamiento con Id: 25
+2025-04-04 11:06:51 [Information] El usuario <admin> actualizó el estado del reclutamiento con Id: 25 a estado: Qualified
+2025-04-04 11:10:17 [Information] Usuario <admin> registró voluntario con Id: 44, grado asignado: 4.
+2025-04-04 11:52:45 [Information] Usuario <admin> ascendió voluntario con Id: 42.
+2025-04-04 11:52:46 [Information] Usuario <admin> ascendió voluntario con Id: 42.
+2025-04-04 11:52:46 [Information] Usuario <admin> ascendió voluntario con Id: 42.
+2025-04-04 11:52:49 [Information] Usuario <admin> ascendió voluntario con Id: 42.
+2025-04-04 11:52:49 [Information] Usuario <admin> ascendió voluntario con Id: 42.
+2025-04-04 11:52:49 [Information] Usuario <admin> ascendió voluntario con Id: 42.
+2025-04-04 11:52:49 [Information] Usuario <admin> ascendió voluntario con Id: 42.
+2025-04-04 11:52:50 [Information] Usuario <admin> ascendió voluntario con Id: 42.
+2025-04-04 11:54:21 [Information] Usuario <admin> ascendió voluntario con Id: 42.
+2025-04-04 11:56:59 [Information] Usuario <admin> ascendió militar con Id: 37.
+2025-04-04 11:59:33 [Information] El usuario <admin> actualizó el estado del voluntario con Id: 42 a estado: ServiceCompleted
+2025-04-04 11:59:36 [Information] El usuario <admin> actualizó el estado del voluntario con Id: 42 a estado: ServiceCompleted
+2025-04-04 12:01:44 [Information] El usuario <admin> actualizó el estado del voluntario con Id: 42 a estado: ServiceCompleted
+2025-04-04 12:01:45 [Information] El usuario <admin> actualizó el estado del voluntario con Id: 42 a estado: ServiceCompleted
+2025-04-04 12:01:45 [Information] El usuario <admin> actualizó el estado del voluntario con Id: 42 a estado: ServiceCompleted
+2025-04-04 12:01:45 [Information] El usuario <admin> actualizó el estado del voluntario con Id: 42 a estado: ServiceCompleted
+2025-04-04 12:01:45 [Information] El usuario <admin> actualizó el estado del voluntario con Id: 42 a estado: ServiceCompleted
+2025-04-04 12:01:46 [Information] El usuario <admin> actualizó el estado del voluntario con Id: 42 a estado: ServiceCompleted
+2025-04-04 12:01:46 [Information] El usuario <admin> actualizó el estado del voluntario con Id: 42 a estado: ServiceCompleted
+2025-04-04 12:03:45 [Information] El usuario <admin> actualizó el estado del voluntario con Id: 42 a estado: Deleted
+2025-04-04 12:03:46 [Information] El usuario <admin> actualizó el estado del voluntario con Id: 42 a estado: Deleted
+2025-04-04 12:03:47 [Information] El usuario <admin> actualizó el estado del voluntario con Id: 42 a estado: Deleted
+2025-04-04 12:06:58 [Information] Usuario <admin> asignó el curso 10 al voluntario 39 con fecha de finalización 4/4/2025.
+2025-04-04 12:06:59 [Error] Failed executing DbCommand ("193"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (DbType = Date), @p3='?' (DbType = Int16)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO `volunteer_course` (`course_id`, `volunteer_id`, `completion_date`, `user_id`)
+VALUES (@p0, @p1, @p2, @p3);
+SELECT `created_at`
+FROM `volunteer_course`
+WHERE ROW_COUNT() = 1 AND `course_id` = @p0 AND `volunteer_id` = @p1;"
+2025-04-04 12:07:00 [Error] An exception occurred in the database while saving changes for context type '"Modernization_SARFAB_Backend.Infrastructure.Persistence.Contexts.SARFABSystemDbContext"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> MySqlConnector.MySqlException (0x80004005): Duplicate entry '39-10' for key 'volunteer_course.PRIMARY'
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 894
+   at MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in /_/src/MySqlConnector/Core/ResultSet.cs:line 37
+   at MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 130
+   at MySqlConnector.MySqlDataReader.InitAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, IDictionary`2 cachedProcedures, IMySqlCommand command, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 483
+   at MySqlConnector.Core.CommandExecutor.ExecuteReaderAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/CommandExecutor.cs:line 56
+   at MySqlConnector.MySqlCommand.ExecuteReaderAsync(CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 357
+   at MySqlConnector.MySqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 350
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass30_0`2.<<ExecuteAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)"
+2025-04-04 12:07:00 [Error] Error al asignar curso: An error occurred while saving the entity changes. See the inner exception for details.
+2025-04-04 13:36:16 [Information] Usuario <admin> registró militar con Id: 45 y rango asignado: 1.
+2025-04-04 13:38:24 [Information] Usuario <admin> registró militar con Id: 46 y rango asignado: 9.
+2025-04-04 13:42:57 [Information] El usuario <admin> actualizó el estado del militar con Id: 23 a estado: Active
+2025-04-04 13:43:20 [Information] El usuario <admin> actualizó el estado del militar con Id: 20 a estado: Active
+2025-04-04 13:44:09 [Information] Usuario <admin> actualizó militar con Id: 20 y nuevo rango 12.
+2025-04-04 13:46:35 [Information] El usuario <admin> actualizó el estado del militar con Id: 38 a estado: Inactive
+2025-04-04 13:46:46 [Information] El usuario <admin> actualizó el estado del militar con Id: 20 a estado: Inactive
+2025-04-04 13:48:08 [Information] Usuario <admin> actualizó militar con Id: 18 y nuevo rango 5.
+2025-04-04 14:16:00 [Information] Usuario <admin> creó la operación con Id: 12.
+2025-04-04 14:19:02 [Information] Usuario <admin> actualizó la operación con Id: 12.
+2025-04-04 14:26:50 [Information] Se actualizó el estado de la persona en la operación
+2025-04-04 14:28:54 [Information] Se actualizó el estado de la persona en la operación
+2025-04-04 14:33:32 [Information] El usuario <admin> actualizó el estado de la operación con Id: 12 a estado: Deleted
+2025-04-04 15:28:12 [Information] Usuario <admin> registró una guardia con id 7
+2025-04-04 15:29:04 [Information] Usuario <admin> registró una guardia con id 8
+2025-04-04 15:29:59 [Information] Usuario <admin> actualizó una guardia con id 7
+2025-04-04 15:31:27 [Information] Usuario <admin> actualizó una guardia con id 7
+2025-04-04 15:40:12 [Information] El usuario 'admin' actualizó la asistencia de la guardia con ID 7 para 3 voluntario(s).
+2025-04-04 15:44:41 [Information] Usuario <admin> finalizó una guardia con id 7
+2025-04-04 16:17:33 [Information] El usuario <admin> creo un elemento con Id: 11.
+2025-04-04 16:20:05 [Information] El usuario <admin> creo un elemento con Id: 12.
+2025-04-04 16:21:22 [Information] El usuario <admin> actualizo un elemento con Id 11.
+2025-04-04 16:23:57 [Information] Usuario <admin> extrajo 2 unidad(es) del ítem 11 para el voluntario 44.
+2025-04-04 16:25:11 [Information] Usuario <admin> devolvió 1 unidad(es) del ítem 11 para el voluntario 44.
+2025-04-04 16:26:13 [Information] El usuario <admin> actualizo un elemento con Id 11.
+2025-04-04 16:28:11 [Information] El usuario <admin> actualizo un elemento con Id 11.
+2025-04-04 16:28:29 [Information] El usuario <admin> actualizo un elemento con Id 11.
+2025-04-04 16:32:40 [Information] El usuario <admin> creo un elemento con Id: 13.
+2025-04-04 16:33:12 [Information] El usuario <admin> actualizo un elemento con Id 11.
+2025-04-04 16:34:17 [Information] Usuario <admin> extrajo 3 unidad(es) del ítem 11 para el voluntario 43.
+2025-04-04 16:34:53 [Information] Usuario <admin> devolvió 1 unidad(es) del ítem 11 para el voluntario 43.
+2025-04-04 16:35:52 [Information] Usuario <admin> extrajo 2 unidad(es) del ítem 11 para el voluntario 41.
+2025-04-04 16:36:17 [Information] Usuario <admin> devolvió 2 unidad(es) del ítem 11 para el voluntario 41.
+2025-04-04 16:36:54 [Information] Usuario <admin> extrajo 1 unidad(es) del ítem 11 para el voluntario 35.
+2025-04-04 16:37:14 [Information] Usuario <admin> devolvió 1 unidad(es) del ítem 11 para el voluntario 35.
+2025-04-04 16:39:45 [Information] Usuario <admin> devolvió 2 unidad(es) del ítem 11 para el voluntario 43.
+2025-04-04 16:40:45 [Information] Usuario <admin> extrajo 2 unidad(es) del ítem 11 para el voluntario 8.
+2025-04-04 17:01:19 [Information] Usuario <admin> registró la extracción de los siguientes ítems para el voluntario 44: ID:4 x2, ID:5 x3, ID:8 x2.
+2025-04-04 17:02:55 [Information] Usuario <admin> registró la devolución de los siguientes ítems para el voluntario 44: ID:4 x2, ID:11 x1.
+2025-04-04 17:44:48 [Information] Usuario <admin> registró tratamiento médico con id 6 para atender a persona con Id: 44.
+2025-04-04 17:49:11 [Information] Usuario <admin> actualizó tratamiento médico con id 6 para atender a persona con Id: 44.
+2025-04-04 17:55:29 [Information] El usuario <admin> creó una categoría de operación: Categoría de prueba emergencias.
+2025-04-04 17:56:53 [Information] El usuario <admin> creó un tipo de operación: Tipo de operación de prueba de emergencia.
+2025-04-04 17:59:23 [Information] El usuario <admin> actualizó el nombre de la categoría de operación con ID 6.
+2025-04-04 17:59:41 [Information] El usuario <admin> actualizó el nombre del tipo de operación con ID 13.
+2025-04-04 18:00:10 [Information] El usuario <admin> actualizó el nombre de la categoría de operación con ID 6.
+2025-04-04 18:00:29 [Information] El usuario <admin> actualizó el nombre del tipo de operación con ID 13.
+2025-04-04 18:01:51 [Information] El usuario <admin> creó un tipo de operación: Tipo 2.
+2025-04-04 18:05:35 [Information] Usuario <admin> registró curso con id 15.
+2025-04-04 18:06:34 [Information] Usuario <admin> registró curso con id 16.
+2025-04-04 18:08:10 [Information] Usuario <admin> actualizó el curso con id 16.
+2025-04-04 18:11:59 [Information] Usuario <admin> asignó el curso 16 a 3 voluntarios.
+2025-04-04 18:31:20 [Information] Usuario <admin> actualizó la operación con Id: 12.
+2025-04-04 18:37:46 [Information] Usuario <admin> registró un usuario con id 12
+2025-04-04 18:40:23 [Information] Usuario <Benitez> cambio la contraseña de un usuario con id 12
+2025-04-04 20:37:12 [Information] Notification background service started.
+2025-04-04 20:37:35 [Information] Notification verification completed successfully.
+2025-04-04 20:37:36 [Warning] Failed to determine the https port for redirect.
+2025-04-04 20:47:00 [Error] Error al restaurar contraseña: Usuario no encontrado
+2025-04-04 20:47:45 [Information] Usuario <Benitez> restauró su contraseña
+2025-04-04 20:49:07 [Information] Usuario <Benitez> cambio la contraseña de un usuario con id 12
+2025-04-04 21:14:13 [Error] Error al restaurar contraseña: Usuario no encontrado
+2025-04-04 21:25:41 [Information] El usuario <admin> actualizó el reclutamiento con Id: 26
+2025-04-04 21:26:38 [Information] El usuario <admin> actualizó el reclutamiento con Id: 1
+2025-04-04 21:33:43 [Error] Failed executing DbCommand ("202"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (Size = 500), @p2='?' (DbType = Date), @p3='?' (Size = 10), @p4='?' (Size = 20), @p5='?' (DbType = Int32), @p6='?' (Size = 500), @p7='?' (Size = 500), @p8='?' (Size = 100), @p9='?' (Size = 255), @p10='?' (Size = 255), @p11='?' (Size = 20), @p12='?' (Size = 20), @p13='?' (Size = 100), @p14='?' (Size = 255), @p15='?' (Size = 20), @p16='?' (Size = 100), @p17='?' (Size = 20), @p18='?' (Size = 100), @p19='?' (DbType = SByte), @p20='?' (DbType = Int16), @p21='?' (Size = 50)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO `volunteer` (`volunteer_id`, `allergies`, `birth_date`, `blood_type`, `ci`, `department_id`, `discharge_reason`, `distinctive_features`, `email`, `emergency_contact_address`, `emergency_contact_full_name`, `emergency_contact_mobile`, `emergency_contact_phone`, `emergency_contact_relation`, `home_address`, `mobile_phone`, `occupation`, `phone`, `religion`, `status`, `user_id`, `volunteer_type`)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18, @p19, @p20, @p21);
+SELECT `created_at`, `updated_at`
+FROM `volunteer`
+WHERE ROW_COUNT() = 1 AND `volunteer_id` = @p0;"
+2025-04-04 21:33:44 [Error] An exception occurred in the database while saving changes for context type '"Modernization_SARFAB_Backend.Infrastructure.Persistence.Contexts.SARFABSystemDbContext"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> MySqlConnector.MySqlException (0x80004005): Duplicate entry 'engolo@cante.com' for key 'volunteer.email_UNIQUE'
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 894
+   at MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in /_/src/MySqlConnector/Core/ResultSet.cs:line 37
+   at MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 130
+   at MySqlConnector.MySqlDataReader.InitAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, IDictionary`2 cachedProcedures, IMySqlCommand command, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 483
+   at MySqlConnector.Core.CommandExecutor.ExecuteReaderAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/CommandExecutor.cs:line 56
+   at MySqlConnector.MySqlCommand.ExecuteReaderAsync(CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 357
+   at MySqlConnector.MySqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 350
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)"
+2025-04-04 21:33:44 [Error] ERROR AL REGISTRAR VOLUNTARIO: An error occurred while saving the entity changes. See the inner exception for details.
+2025-04-04 21:33:44 [Error] Error al crear voluntario y asignar grado: An error occurred while saving the entity changes. See the inner exception for details.
+2025-04-04 21:36:38 [Information] Usuario <admin> registró voluntario con Id: 48, grado asignado: 1.
+2025-04-04 21:49:55 [Information] El usuario <admin> actualizó el estado del voluntario con Id: 8 a estado: ServiceCompleted
+2025-04-04 21:49:55 [Information] El usuario <admin> actualizó el estado del voluntario con Id: 8 a estado: ServiceCompleted
+2025-04-04 21:49:56 [Information] El usuario <admin> actualizó el estado del voluntario con Id: 8 a estado: ServiceCompleted
+2025-04-04 21:50:10 [Information] El usuario <admin> actualizó el estado del voluntario con Id: 8 a estado: ServiceCompleted
+2025-04-04 21:50:10 [Information] El usuario <admin> actualizó el estado del voluntario con Id: 8 a estado: ServiceCompleted
+2025-04-04 21:50:11 [Information] El usuario <admin> actualizó el estado del voluntario con Id: 8 a estado: ServiceCompleted
+2025-04-04 21:50:11 [Information] El usuario <admin> actualizó el estado del voluntario con Id: 8 a estado: ServiceCompleted
+2025-04-04 21:50:12 [Information] El usuario <admin> actualizó el estado del voluntario con Id: 8 a estado: ServiceCompleted
+2025-04-04 21:50:12 [Information] El usuario <admin> actualizó el estado del voluntario con Id: 8 a estado: ServiceCompleted
+2025-04-04 21:50:12 [Information] El usuario <admin> actualizó el estado del voluntario con Id: 8 a estado: ServiceCompleted
+2025-04-04 21:50:13 [Information] El usuario <admin> actualizó el estado del voluntario con Id: 8 a estado: ServiceCompleted
+2025-04-04 21:50:13 [Information] El usuario <admin> actualizó el estado del voluntario con Id: 8 a estado: ServiceCompleted
+2025-04-04 21:50:13 [Information] El usuario <admin> actualizó el estado del voluntario con Id: 8 a estado: ServiceCompleted
+2025-04-04 21:52:03 [Information] Usuario <admin> asignó el curso 9 al voluntario 39 con fecha de finalización 4/4/2025.
+2025-04-04 21:52:03 [Error] Failed executing DbCommand ("259"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (DbType = Date), @p3='?' (DbType = Int16)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO `volunteer_course` (`course_id`, `volunteer_id`, `completion_date`, `user_id`)
+VALUES (@p0, @p1, @p2, @p3);
+SELECT `created_at`
+FROM `volunteer_course`
+WHERE ROW_COUNT() = 1 AND `course_id` = @p0 AND `volunteer_id` = @p1;"
+2025-04-04 21:52:04 [Error] Failed executing DbCommand ("203"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (DbType = Date), @p3='?' (DbType = Int16)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO `volunteer_course` (`course_id`, `volunteer_id`, `completion_date`, `user_id`)
+VALUES (@p0, @p1, @p2, @p3);
+SELECT `created_at`
+FROM `volunteer_course`
+WHERE ROW_COUNT() = 1 AND `course_id` = @p0 AND `volunteer_id` = @p1;"
+2025-04-04 21:52:04 [Error] An exception occurred in the database while saving changes for context type '"Modernization_SARFAB_Backend.Infrastructure.Persistence.Contexts.SARFABSystemDbContext"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> MySqlConnector.MySqlException (0x80004005): Duplicate entry '39-9' for key 'volunteer_course.PRIMARY'
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 894
+   at MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in /_/src/MySqlConnector/Core/ResultSet.cs:line 37
+   at MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 130
+   at MySqlConnector.MySqlDataReader.InitAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, IDictionary`2 cachedProcedures, IMySqlCommand command, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 483
+   at MySqlConnector.Core.CommandExecutor.ExecuteReaderAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/CommandExecutor.cs:line 56
+   at MySqlConnector.MySqlCommand.ExecuteReaderAsync(CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 357
+   at MySqlConnector.MySqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 350
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass30_0`2.<<ExecuteAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)"
+2025-04-04 21:52:04 [Error] Error al asignar curso: An error occurred while saving the entity changes. See the inner exception for details.
+2025-04-04 21:52:04 [Error] An exception occurred in the database while saving changes for context type '"Modernization_SARFAB_Backend.Infrastructure.Persistence.Contexts.SARFABSystemDbContext"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> MySqlConnector.MySqlException (0x80004005): Duplicate entry '39-9' for key 'volunteer_course.PRIMARY'
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 894
+   at MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in /_/src/MySqlConnector/Core/ResultSet.cs:line 37
+   at MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 130
+   at MySqlConnector.MySqlDataReader.InitAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, IDictionary`2 cachedProcedures, IMySqlCommand command, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 483
+   at MySqlConnector.Core.CommandExecutor.ExecuteReaderAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/CommandExecutor.cs:line 56
+   at MySqlConnector.MySqlCommand.ExecuteReaderAsync(CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 357
+   at MySqlConnector.MySqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 350
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass30_0`2.<<ExecuteAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)"
+2025-04-04 21:52:04 [Error] Error al asignar curso: An error occurred while saving the entity changes. See the inner exception for details.
+2025-04-04 21:52:04 [Error] Failed executing DbCommand ("190"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (DbType = Date), @p3='?' (DbType = Int16)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO `volunteer_course` (`course_id`, `volunteer_id`, `completion_date`, `user_id`)
+VALUES (@p0, @p1, @p2, @p3);
+SELECT `created_at`
+FROM `volunteer_course`
+WHERE ROW_COUNT() = 1 AND `course_id` = @p0 AND `volunteer_id` = @p1;"
+2025-04-04 21:52:04 [Error] Failed executing DbCommand ("197"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (DbType = Date), @p3='?' (DbType = Int16)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO `volunteer_course` (`course_id`, `volunteer_id`, `completion_date`, `user_id`)
+VALUES (@p0, @p1, @p2, @p3);
+SELECT `created_at`
+FROM `volunteer_course`
+WHERE ROW_COUNT() = 1 AND `course_id` = @p0 AND `volunteer_id` = @p1;"
+2025-04-04 21:52:04 [Error] An exception occurred in the database while saving changes for context type '"Modernization_SARFAB_Backend.Infrastructure.Persistence.Contexts.SARFABSystemDbContext"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> MySqlConnector.MySqlException (0x80004005): Duplicate entry '39-9' for key 'volunteer_course.PRIMARY'
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 894
+   at MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in /_/src/MySqlConnector/Core/ResultSet.cs:line 37
+   at MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 130
+   at MySqlConnector.MySqlDataReader.InitAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, IDictionary`2 cachedProcedures, IMySqlCommand command, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 483
+   at MySqlConnector.Core.CommandExecutor.ExecuteReaderAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/CommandExecutor.cs:line 56
+   at MySqlConnector.MySqlCommand.ExecuteReaderAsync(CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 357
+   at MySqlConnector.MySqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 350
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass30_0`2.<<ExecuteAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)"
+2025-04-04 21:52:04 [Error] Error al asignar curso: An error occurred while saving the entity changes. See the inner exception for details.
+2025-04-04 21:52:04 [Error] An exception occurred in the database while saving changes for context type '"Modernization_SARFAB_Backend.Infrastructure.Persistence.Contexts.SARFABSystemDbContext"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> MySqlConnector.MySqlException (0x80004005): Duplicate entry '39-9' for key 'volunteer_course.PRIMARY'
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 894
+   at MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in /_/src/MySqlConnector/Core/ResultSet.cs:line 37
+   at MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 130
+   at MySqlConnector.MySqlDataReader.InitAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, IDictionary`2 cachedProcedures, IMySqlCommand command, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 483
+   at MySqlConnector.Core.CommandExecutor.ExecuteReaderAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/CommandExecutor.cs:line 56
+   at MySqlConnector.MySqlCommand.ExecuteReaderAsync(CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 357
+   at MySqlConnector.MySqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 350
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass30_0`2.<<ExecuteAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)"
+2025-04-04 21:52:04 [Error] Error al asignar curso: An error occurred while saving the entity changes. See the inner exception for details.
+2025-04-04 21:52:04 [Error] Failed executing DbCommand ("197"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (DbType = Date), @p3='?' (DbType = Int16)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO `volunteer_course` (`course_id`, `volunteer_id`, `completion_date`, `user_id`)
+VALUES (@p0, @p1, @p2, @p3);
+SELECT `created_at`
+FROM `volunteer_course`
+WHERE ROW_COUNT() = 1 AND `course_id` = @p0 AND `volunteer_id` = @p1;"
+2025-04-04 21:52:05 [Error] An exception occurred in the database while saving changes for context type '"Modernization_SARFAB_Backend.Infrastructure.Persistence.Contexts.SARFABSystemDbContext"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> MySqlConnector.MySqlException (0x80004005): Duplicate entry '39-9' for key 'volunteer_course.PRIMARY'
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 894
+   at MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in /_/src/MySqlConnector/Core/ResultSet.cs:line 37
+   at MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 130
+   at MySqlConnector.MySqlDataReader.InitAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, IDictionary`2 cachedProcedures, IMySqlCommand command, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 483
+   at MySqlConnector.Core.CommandExecutor.ExecuteReaderAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/CommandExecutor.cs:line 56
+   at MySqlConnector.MySqlCommand.ExecuteReaderAsync(CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 357
+   at MySqlConnector.MySqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 350
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass30_0`2.<<ExecuteAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)"
+2025-04-04 21:52:05 [Error] Error al asignar curso: An error occurred while saving the entity changes. See the inner exception for details.
+2025-04-04 21:52:05 [Error] Failed executing DbCommand ("209"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (DbType = Date), @p3='?' (DbType = Int16)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO `volunteer_course` (`course_id`, `volunteer_id`, `completion_date`, `user_id`)
+VALUES (@p0, @p1, @p2, @p3);
+SELECT `created_at`
+FROM `volunteer_course`
+WHERE ROW_COUNT() = 1 AND `course_id` = @p0 AND `volunteer_id` = @p1;"
+2025-04-04 21:52:05 [Error] An exception occurred in the database while saving changes for context type '"Modernization_SARFAB_Backend.Infrastructure.Persistence.Contexts.SARFABSystemDbContext"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> MySqlConnector.MySqlException (0x80004005): Duplicate entry '39-9' for key 'volunteer_course.PRIMARY'
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 894
+   at MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in /_/src/MySqlConnector/Core/ResultSet.cs:line 37
+   at MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 130
+   at MySqlConnector.MySqlDataReader.InitAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, IDictionary`2 cachedProcedures, IMySqlCommand command, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 483
+   at MySqlConnector.Core.CommandExecutor.ExecuteReaderAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/CommandExecutor.cs:line 56
+   at MySqlConnector.MySqlCommand.ExecuteReaderAsync(CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 357
+   at MySqlConnector.MySqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 350
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass30_0`2.<<ExecuteAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)"
+2025-04-04 21:52:05 [Error] Error al asignar curso: An error occurred while saving the entity changes. See the inner exception for details.
+2025-04-04 21:52:06 [Error] Failed executing DbCommand ("193"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (DbType = Date), @p3='?' (DbType = Int16)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO `volunteer_course` (`course_id`, `volunteer_id`, `completion_date`, `user_id`)
+VALUES (@p0, @p1, @p2, @p3);
+SELECT `created_at`
+FROM `volunteer_course`
+WHERE ROW_COUNT() = 1 AND `course_id` = @p0 AND `volunteer_id` = @p1;"
+2025-04-04 21:52:06 [Error] An exception occurred in the database while saving changes for context type '"Modernization_SARFAB_Backend.Infrastructure.Persistence.Contexts.SARFABSystemDbContext"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> MySqlConnector.MySqlException (0x80004005): Duplicate entry '39-9' for key 'volunteer_course.PRIMARY'
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 894
+   at MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in /_/src/MySqlConnector/Core/ResultSet.cs:line 37
+   at MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 130
+   at MySqlConnector.MySqlDataReader.InitAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, IDictionary`2 cachedProcedures, IMySqlCommand command, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 483
+   at MySqlConnector.Core.CommandExecutor.ExecuteReaderAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/CommandExecutor.cs:line 56
+   at MySqlConnector.MySqlCommand.ExecuteReaderAsync(CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 357
+   at MySqlConnector.MySqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 350
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass30_0`2.<<ExecuteAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)"
+2025-04-04 21:52:06 [Error] Error al asignar curso: An error occurred while saving the entity changes. See the inner exception for details.
+2025-04-04 22:10:21 [Information] El usuario <admin> creo un elemento con Id: 14.
+2025-04-04 22:11:43 [Information] El usuario <admin> creo un elemento con Id: 15.
+2025-04-04 22:16:26 [Information] Usuario <admin> registró militar con Id: 50 y rango asignado: 11.
+2025-04-04 22:32:35 [Information] Usuario <admin> registró una guardia con id 9
+2025-04-04 22:34:58 [Information] Se actualizó el estado de la persona en la operación
+2025-04-04 22:45:30 [Information] Usuario <admin> actualizó tratamiento médico con id 5 para atender a persona con Id: 9.

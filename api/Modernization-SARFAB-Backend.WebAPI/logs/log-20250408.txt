@@ -1,0 +1,30 @@
+2025-04-08 12:01:10 [Information] Notification background service started.
+2025-04-08 12:01:44 [Information] Notification verification completed successfully.
+2025-04-08 12:03:18 [Warning] Failed to determine the https port for redirect.
+2025-04-08 12:19:13 [Information] Usuario <admin> registró militar con Id: 50 y rango asignado: 4.
+2025-04-08 12:20:57 [Information] Usuario <admin> actualizó militar con Id: 38 y nuevo rango 9.
+2025-04-08 12:22:11 [Information] Usuario <admin> ascendió militar con Id: 38.
+2025-04-08 12:22:32 [Information] El usuario <admin> actualizó el estado del militar con Id: 38 a estado: Inactive
+2025-04-08 12:24:04 [Information] El usuario <admin> actualizó el estado del militar con Id: 38 a estado: Active
+2025-04-08 12:32:22 [Information] Usuario <admin> creó la operación con Id: 19.
+2025-04-08 12:36:33 [Information] Usuario <admin> actualizó la operación con Id: 19.
+2025-04-08 13:17:27 [Information] Usuario <admin> actualizó la operación con Id: 19.
+2025-04-08 15:08:26 [Information] Notification background service started.
+2025-04-08 15:08:51 [Warning] Failed to determine the https port for redirect.
+2025-04-08 15:08:58 [Information] Notification verification completed successfully.
+2025-04-08 15:26:35 [Information] Notification background service started.
+2025-04-08 15:27:08 [Information] Notification verification completed successfully.
+2025-04-08 15:28:38 [Warning] Failed to determine the https port for redirect.
+2025-04-08 15:33:28 [Information] Usuario <admin> actualizó la operación con Id: 19.
+2025-04-08 15:55:36 [Information] Se actualizó el estado de la persona en la operación
+2025-04-08 15:55:36 [Information] Se actualizó el estado de la persona en la operación
+2025-04-08 15:55:37 [Information] El usuario <admin> actualizó el estado de la operación con Id: 19 a estado: Deleted
+2025-04-08 16:03:05 [Information] El usuario <admin> creo un elemento con Id: 13.
+2025-04-08 16:12:14 [Information] El usuario <admin> actualizo un elemento con Id 13.
+2025-04-08 16:14:14 [Information] Usuario <admin> extrajo 5 unidad(es) del ítem 13 para el voluntario 9.
+2025-04-08 16:16:39 [Information] Usuario <admin> extrajo 5 unidad(es) del ítem 13 para el voluntario 11.
+2025-04-08 16:17:22 [Information] Usuario <admin> extrajo 5 unidad(es) del ítem 13 para el voluntario 13.
+2025-04-08 16:18:01 [Information] Usuario <admin> extrajo 5 unidad(es) del ítem 13 para el voluntario 34.
+2025-04-08 16:48:53 [Information] Usuario <admin> devolvió 5 unidad(es) del ítem 13 para el voluntario 9.
+2025-04-08 16:51:28 [Information] Usuario <admin> registró la devolución de los siguientes ítems para el voluntario 11: ID:13 x5.
+2025-04-08 16:54:06 [Information] Usuario <admin> registró la extracción de los siguientes ítems para el voluntario 9: ID:13 x5.

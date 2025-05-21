@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Modernization-SARFAB-Backend.WebAPI.props" />
+</Project>

@@ -1,0 +1,76 @@
+2025-04-06 07:05:43 [Fatal] La aplicaci?n fall? al iniciar.
+2025-04-06 07:06:35 [Fatal] La aplicaci?n fall? al iniciar.
+2025-04-06 07:07:16 [Information] Notification background service started.
+2025-04-06 07:07:35 [Warning] Failed to determine the https port for redirect.
+2025-04-06 07:07:41 [Information] Notification verification completed successfully.
+2025-04-06 07:12:01 [Information] Notification background service started.
+2025-04-06 07:12:17 [Information] Notification verification completed successfully.
+2025-04-06 07:12:20 [Warning] Failed to determine the https port for redirect.
+2025-04-06 07:58:28 [Information] Notification background service started.
+2025-04-06 07:58:42 [Information] Notification verification completed successfully.
+2025-04-06 07:58:52 [Warning] Failed to determine the https port for redirect.
+2025-04-06 08:30:55 [Information] Notification background service started.
+2025-04-06 08:31:13 [Information] Notification verification completed successfully.
+2025-04-06 08:32:24 [Warning] Failed to determine the https port for redirect.
+2025-04-06 08:36:04 [Information] Usuario <admin> registró curso con id 15.
+2025-04-06 08:37:27 [Information] Usuario <admin> registró curso con id 16.
+2025-04-06 08:44:32 [Information] Usuario <admin> asignó el curso 16 a 3 voluntarios.
+2025-04-06 08:45:54 [Information] Usuario <admin> asignó el curso 16 a 1 voluntarios.
+2025-04-06 08:57:57 [Information] Usuario <admin> asignó el curso 7 a 2 voluntarios.
+2025-04-06 08:58:22 [Information] Usuario <admin> asignó el curso 1 a 2 voluntarios.
+2025-04-06 09:00:40 [Information] Usuario <admin> actualizó el curso con id 16.
+2025-04-06 09:30:57 [Information] El usuario <admin> actualizó el nombre del tipo de operación con ID 14.
+2025-04-06 09:37:38 [Information] El usuario <admin> actualizó el nombre de la categoría de operación con ID 6.
+2025-04-06 09:38:11 [Information] El usuario <admin> creó una categoría de operación: CATEGORIAAA.
+2025-04-06 09:39:14 [Information] El usuario <admin> creó una categoría de operación: CATEG.
+2025-04-06 09:39:43 [Information] El usuario <admin> actualizó el nombre de la categoría de operación con ID 14.
+2025-04-06 09:40:02 [Information] El usuario <admin> actualizó el nombre de la categoría de operación con ID 14.
+2025-04-06 09:46:18 [Information] El usuario <admin> creó una categoría de operación: categ.
+2025-04-06 09:50:34 [Information] El usuario <admin> actualizó el nombre de la categoría de operación con ID 15.
+2025-04-06 10:19:19 [Information] El usuario <admin> creó una categoría de operación: CATEG1.
+2025-04-06 10:24:22 [Information] El usuario <admin> creó una categoría de operación: OTRA CATEGORIA.
+2025-04-06 10:31:04 [Information] El usuario <admin> creó una categoría de operación: OTRO.
+2025-04-06 10:35:17 [Information] El usuario <admin> creó una categoría de operación: OTROOOOO.
+2025-04-06 10:35:45 [Information] El usuario <admin> creó un tipo de operación: TIPOOOOO.
+2025-04-06 10:36:11 [Information] El usuario <admin> creó un tipo de operación: TIPO DE PRUEBA.
+2025-04-06 10:37:26 [Information] El usuario <admin> creó un tipo de operación: OTRO TIPO.
+2025-04-06 10:37:57 [Information] El usuario <admin> creó una categoría de operación: AAAAA.
+2025-04-06 10:39:12 [Information] El usuario <admin> creó una categoría de operación: PRUEBA 2.
+2025-04-06 10:41:02 [Information] El usuario <admin> creó una categoría de operación: PRUEBA 1.
+2025-04-06 10:42:00 [Information] El usuario <admin> actualizó el nombre del tipo de operación con ID 16.
+2025-04-06 10:42:32 [Information] El usuario <admin> creó un tipo de operación: TIPAZO.
+2025-04-06 10:44:09 [Information] El usuario <admin> creó un tipo de operación: TIP.
+2025-04-06 10:44:51 [Information] El usuario <admin> creó un tipo de operación: UP.
+2025-04-06 12:04:22 [Information] El usuario <admin> actualizó el nombre del tipo de operación con ID 1.
+2025-04-06 13:02:14 [Error] An error occurred using the connection to database '"sarfab_modernization"' on server '"turntable.proxy.rlwy.net"'.
+2025-04-06 13:17:37 [Information] El usuario <admin> actualizó el nombre de la categoría de operación con ID 6.
+2025-04-06 13:18:04 [Information] El usuario <admin> actualizó el nombre del tipo de operación con ID 14.
+2025-04-06 13:58:50 [Information] Notification background service started.
+2025-04-06 13:59:09 [Information] Notification verification completed successfully.
+2025-04-06 14:03:00 [Warning] Failed to determine the https port for redirect.
+2025-04-06 17:18:05 [Information] Se actualizó el estado de la persona en la operación
+2025-04-06 17:18:20 [Information] Se actualizó el estado de la persona en la operación
+2025-04-06 17:20:56 [Information] Se actualizó el estado de la persona en la operación
+2025-04-06 17:25:37 [Information] Se actualizó el estado de la persona en la operación
+2025-04-06 17:30:30 [Information] Se actualizó el estado de la persona en la operación
+2025-04-06 17:30:51 [Information] Se actualizó el estado de la persona en la operación
+2025-04-06 17:47:37 [Information] Usuario <admin> actualizó la operación con Id: 15.
+2025-04-06 19:54:56 [Information] Se actualizó el estado de la persona en la operación
+2025-04-06 19:54:56 [Information] Se actualizó el estado de la persona en la operación
+2025-04-06 19:55:34 [Information] El usuario <admin> actualizó el estado de la operación con Id: 15 a estado: Deleted
+2025-04-06 20:11:51 [Information] Usuario <admin> creó la operación con Id: 16.
+2025-04-06 20:15:55 [Information] El usuario <admin> actualizó el estado de la operación con Id: 16 a estado: Deleted
+2025-04-06 20:15:56 [Information] Se actualizó el estado de la persona en la operación
+2025-04-06 20:15:56 [Information] Se actualizó el estado de la persona en la operación
+2025-04-06 20:28:30 [Information] Se actualizó el estado de la persona en la operación
+2025-04-06 20:28:32 [Information] Se actualizó el estado de la persona en la operación
+2025-04-06 20:28:32 [Information] Se actualizó el estado de la persona en la operación
+2025-04-06 20:28:33 [Information] El usuario <admin> actualizó el estado de la operación con Id: 13 a estado: Deleted
+2025-04-06 20:37:49 [Information] Usuario <admin> creó la operación con Id: 17.
+2025-04-06 20:39:43 [Information] Se actualizó el estado de la persona en la operación
+2025-04-06 20:39:43 [Information] Se actualizó el estado de la persona en la operación
+2025-04-06 20:39:46 [Information] El usuario <admin> actualizó el estado de la operación con Id: 17 a estado: Deleted
+2025-04-06 20:50:53 [Information] Usuario <admin> creó la operación con Id: 18.
+2025-04-06 20:52:43 [Information] Se actualizó el estado de la persona en la operación
+2025-04-06 20:52:43 [Information] El usuario <admin> actualizó el estado de la operación con Id: 18 a estado: Deleted
+2025-04-06 20:52:44 [Information] Se actualizó el estado de la persona en la operación
