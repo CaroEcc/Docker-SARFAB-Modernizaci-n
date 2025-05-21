@@ -1,0 +1,9 @@
+types {
+    application/javascript  js mjs;
+    text/css                css;
+    text/html               html htm;
+    image/png               png;
+    image/jpeg              jpeg jpg;
+    image/gif               gif;
+    # Agrega otros tipos MIME según sea necesario
+}
