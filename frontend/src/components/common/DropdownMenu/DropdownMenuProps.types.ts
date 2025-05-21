@@ -1,0 +1,3 @@
+interface DropdownMenuProps {
+  items: DropdownItem[];
+};

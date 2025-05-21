@@ -1,0 +1,8 @@
+.custom-date-range {
+    display: flex;
+    justify-content: center;
+}
+
+.custom-date-range .rdrCalendarWrapper {
+    width: 320px !important;
+}
